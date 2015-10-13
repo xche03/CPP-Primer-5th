@@ -1,0 +1,2 @@
+From http://stackoverflow.com/questions/2950931/for-vs-while-in-c-programming
+The main difference between the for's and the while's is a matter of pragmatics: we usually use for when there is a known number of iterations, and use while constructs when the number of iterations in not known in advance.
