@@ -14,7 +14,7 @@
     <ClInclude Include="C:\Users\xche\Downloads\VisualStudio2012\1\Sales_item.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise 1.22.cpp">
+    <ClCompile Include="Exercise 1.24.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
