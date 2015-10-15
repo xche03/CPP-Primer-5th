@@ -5,21 +5,13 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="Exercise 1.16.cpp">
-=======
-    <ClInclude Include="C:\Users\xche\Downloads\VisualStudio2012\1\Sales_item.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Exercise 1.24.cpp">
->>>>>>> 69aa80c966478f5b31d3e023515ded1ec6802432
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
