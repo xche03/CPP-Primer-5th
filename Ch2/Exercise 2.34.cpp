@@ -23,6 +23,7 @@ int main() {
 	auto &g = ci; // g is a const int& that is bound to ci
 
 
+
 	a = 42;
 	b = 42;
 	c = 42;
