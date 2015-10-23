@@ -27,5 +27,7 @@ int main() {
 	p1 = p3; p2 = p3;//error: p1 is not a pointer to const type. low-level const can't be ignored.
 
 
+
+
 	return 0;
 }
