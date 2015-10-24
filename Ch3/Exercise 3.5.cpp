@@ -17,6 +17,7 @@ int main() {
 	string s4 = s1 + " " + s2;
 	cout << s4 << endl;
 
+
 	system("PAUSE");
 	return 0;
 }
