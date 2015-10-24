@@ -18,9 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Exercise 1.9.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8A714C3B-C9AF-4B7D-8116-9F0D71E77261}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
