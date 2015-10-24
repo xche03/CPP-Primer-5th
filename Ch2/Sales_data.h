@@ -1,3 +1,5 @@
+/*Exercise 2.42: Write your own version of the Sales_data.h header and
+use it to rewrite the exercise from ¡ì 2.6.2 (p. 76).*/
 #pragma once
 #ifndef SALES_DATA_H
 #define SALES_DATA_H
