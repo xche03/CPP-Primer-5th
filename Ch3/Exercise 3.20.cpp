@@ -25,7 +25,8 @@ int main() {
 
 	cout << "**************************" << endl;
 	if (!v.empty()&& v.size()>=2) {
-		for (decltype(v.size()) index = 0; index < v.size()/2; ++index) {//use size/2 to avoid doulbe counting
+		auto mid = v.size() % 2 == 0 ? v.size() / 2 : v.size() / 2 + 1;
+		for (decltype(v.size()) index = 0; index < mid; ++index) {//use size/2 to avoid doulbe counting
 			cout << v[index] + v[v.size() - 1 - index]<<endl;
 		}
 	}
