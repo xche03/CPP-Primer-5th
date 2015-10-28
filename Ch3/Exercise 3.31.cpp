@@ -5,7 +5,7 @@ element the same value as its position in the array.*/
 int main() {
 	constexpr size_t array_size = 10;
 	int a[10] = {};
-	for (size_t ix = 1; ix < array_size; ++ix) a[ix] = ix;
+	for (size_t ix = 0; ix < array_size; ++ix) a[ix] = ix;
 
 	system("PAUSE");
 	return 0;
