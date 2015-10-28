@@ -1,4 +1,4 @@
-/*Exercise 3.21: Redo the first exercise from § 3.3.3 (p. 105) using iterators.*/
+/*Exercise 3.21: Redo the first exercise from ?3.3.3 (p. 105) using iterators.*/
 
 /*Exercise 3.16: Write a program to print the size and contents of the
 vectors from exercise 3.13. Check whether your answers to that exercise
