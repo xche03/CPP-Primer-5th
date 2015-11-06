@@ -30,23 +30,25 @@ int rdn(int y, int m, int d) { /* Rata Die day one is 0001-01-01 */
 
 //Kirk Call Option
 double kirkCall(double x1, double x2, double K,double sigma1, double sigma2, double rho, double T, double r ) {
-	double sigma_k = sqrt(pow(sigma2,2)-2*rho*sigma1*sigma2*(x1/(x1+K*exp(-r*T)))+pow(sigma1,2)*pow(x1/(x1+K*exp(-r*T)),2));
-	double optionValue = x2*norm_cdf(log(x2 / (x1 + K*exp(-r*T))) / sigma_k + sigma_k / 2) -
-		(x1 + K*exp(-r*T))*norm_cdf(log(x2 / (x1 + K*exp(-r*T))) / sigma_k - sigma_k / 2);
+	double sigma_k = sqrt(pow(sigma2,2.0)-2*rho*sigma1*sigma2*(x1/(x1+K*exp(-r*T)))+pow(sigma1,2.0)*pow(x1/(x1+K*exp(-r*T)),2));
+	double optionValue = x2*norm_cdf((log(x2 / (x1 + K*exp(-r*T))) / sigma_k) + (sigma_k / 2)) -
+		(x1 + K*exp(-r*T))*norm_cdf((log(x2 / (x1 + K*exp(-r*T))) / sigma_k) - (sigma_k / 2));
 	return optionValue;
 }
 
 int main() {
 
-	int days = rdn(2012, 04, 01) - rdn(2012, 01, 01);
+	int days = rdn(2012, 9, 1) - rdn(2012, 6, 1);
 	double T = days / 365.0;
-	double x2 = 2.85 * 42;
+	double x2 = 2.85 * 42.0;
 	double x1 = 93.20;
 	double sigma2 = 0.29;
 	double sigma1 = 0.36;
 	double rho = 0.42;
-	double K = 20;
+	double K = 20.0;
 	double r = 0.05;
+
+
 	double kirk = kirkCall(x1, x2, K, sigma1, sigma2, rho, T, r);
 	cout << kirk << endl;
 
