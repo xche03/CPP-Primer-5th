@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Kirk.cpp" />
+    <ClCompile Include="Exercise 3.41.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{17A3B3F3-5DBB-4BE1-B512-9F705BD69481}</ProjectGuid>
