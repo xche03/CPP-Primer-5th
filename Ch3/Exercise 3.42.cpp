@@ -17,7 +17,6 @@ int main() {
 		++i;
 	}
 
-
 	system("PAUSE");
 	return 0;
 
