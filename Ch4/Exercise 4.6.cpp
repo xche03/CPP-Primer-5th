@@ -17,7 +17,7 @@ int main() {
 
 		else {
 		
-			cout << "The number is odd" << endl;
+			cout << "The number is odd." << endl;
 		
 		}
 	
