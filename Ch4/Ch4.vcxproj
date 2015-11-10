@@ -146,9 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise 4.1.cpp" />
-    <ClCompile Include="Exercise 4.2.cpp" />
-    <ClCompile Include="Exercise 4.3.cpp" />
+    <ClCompile Include="Exercise 4.5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
