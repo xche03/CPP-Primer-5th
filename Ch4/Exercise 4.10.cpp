@@ -9,7 +9,8 @@ int main() {
 
 	int i=0;
 	while (cin >> i && i != 42) {
-		cout << "The interger is read in successfully and it is not 42!";
+		cout << i << endl;
+		cout << "The interger is read in successfully and it is not 42!"<<endl;
 	
 	}
 
