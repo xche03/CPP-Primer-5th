@@ -16,13 +16,38 @@ using namespace std;
 int main() {
 
 	string finalgrade;
-	double grade = 91;
+	double grade = 59;
 
 
 	finalgrade = (grade > 90) ? "high pass"
 		: (grade < 60) ? "fail" : (grade >= 60 && grade <= 75) ? "low pass" : "pass";
 
-	cout << finalgrade << endl;
+
+	cout <<"First version finalgrade = " <<finalgrade << endl;
+
+
+	if (grade > 90) {
+	
+		finalgrade = "high pass";
+	
+	}
+	else if (grade > 75 && grade <= 90) {
+
+		finalgrade = "pass";
+	}
+
+	else if (grade >= 60 && grade <= 75) {
+
+		finalgrade = " low pass";
+	}
+
+	else {
+	
+		finalgrade = "fail";
+	}
+
+
+	cout << "Second version finalgrade = " << finalgrade << endl;
 	system("PAUSE");
 	return 0;
 }
