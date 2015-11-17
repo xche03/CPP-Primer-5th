@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Exercise 4.19.cpp" />
     <ClCompile Include="Exercise 4.23.cpp" />
     <ClCompile Include="Exercise 4.24.cpp" />
   </ItemGroup>
