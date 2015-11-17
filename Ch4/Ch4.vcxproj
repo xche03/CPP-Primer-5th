@@ -19,12 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise 4.19.cpp" />
-    <ClCompile Include="Exercise 4.23.cpp" />
-    <ClCompile Include="Exercise 4.24.cpp" />
-    <ClCompile Include="Exercise 4.25.cpp" />
-    <ClCompile Include="Exercise 4.26.cpp" />
-    <ClCompile Include="Exercise 4.27.cpp" />
+    <ClCompile Include="Exercise 4.28.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CB686F95-838D-4CE7-8ADD-9512C9494521}</ProjectGuid>
