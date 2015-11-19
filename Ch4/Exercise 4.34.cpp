@@ -16,11 +16,11 @@ int main() {
 	long lval=0; unsigned long ulval=0;
 	float fval=0.0; double dval=0.0;
 	
-	if (fval) {};//fval is converted to either true or false;
+	if (fval) {};//fval is converted to bool;
 	cout << "sizeof(fval): " <<sizeof(fval) << endl;
 	cout << "sizeof(ival): " << sizeof(ival) << endl;
-
-
+	dval = fval + ival;//ival is converted to float first, and then the result is converted to double
+	dval + ival * cval;//cval is converted to int first, and the results is converted to double.
 
 
 	system("PAUSE");
