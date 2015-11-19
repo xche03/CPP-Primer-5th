@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise 4.33.cpp">
+    <ClCompile Include="Exercise 4.34.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Exercise 4.34.cpp">
+    <ClCompile Include="Exercise 4.33.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
