@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercise 4.34.cpp" />
+    <ClCompile Include="Exercise 4.35.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CB686F95-838D-4CE7-8ADD-9512C9494521}</ProjectGuid>
