@@ -5,12 +5,10 @@ double slope = static_cast<double>(j/i);*/
 #include <iostream>
 using namespace std;
 int main() {
-	int i = 5;
-	int j = 6;
+	int i = 6;
+	int j = 5;
 	double slope = static_cast<double>(j / i); 
-
-	cout<<slope<<
-
+	cout << slope << endl; 
 	system("PAUSE");
 
 }
