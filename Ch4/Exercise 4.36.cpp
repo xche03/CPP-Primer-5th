@@ -8,9 +8,14 @@ using namespace std;
 int main() {
 
 	int i = 5;
-	double d = 0.0;
+	double d = 3.21;
+	i *= d;
+	cout << i << endl;
+	i = 5;
 	i *= static_cast <int> (d);
 	cout << i << endl;
-
+	system("PAUSE");
+	/*static_cast An explicit request for a well-defined type conversion. Often used to
+override an implicit conversion that the compiler would otherwise perform.*/
 
 }

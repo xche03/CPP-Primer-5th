@@ -19,8 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise 4.34.cpp" />
-    <ClCompile Include="Exercise 4.35.cpp" />
     <ClCompile Include="Exercise 4.36.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
