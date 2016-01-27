@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exercise 5.4.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C14ED8A3-78BB-4F98-BCAB-16D11D83944A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,11 +148,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Exercise 5.1.cpp" />
-    <ClCompile Include="Exercise 5.2.cpp" />
-    <ClCompile Include="Exercise 5.3.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
