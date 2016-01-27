@@ -19,11 +19,7 @@ int main() {
 	while (bool status = s.find("o")) {
 		if (!status) { /* . . . */ }
 	
-	}
-
-
-
-	
+	}	
 	system("PAUSE");
 
 }
